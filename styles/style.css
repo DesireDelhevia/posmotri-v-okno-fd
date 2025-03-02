@@ -60,7 +60,6 @@ ol {
   place-items: end;
   gap: 30px;
   inline-size: 1140px;
-  block-size: 534px;
 }
 
 .result {
@@ -72,8 +71,9 @@ ol {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  width: 399px;
-  height: 100%;
+  inline-size: 100%;
+  block-size: 100%;
+  max-inline-size: 399px;
 }
 
 .search-form {
@@ -225,7 +225,7 @@ ol {
 }
 
 .title {
-  font-family: "Oswald" , "sans-serif";
+  font-family: "Oswald", sans-serif;
   font-size: 75px;
   font-weight: 700;
   line-height: 94%;
@@ -305,7 +305,7 @@ ol {
 }
 
 .content__video-card-title {
-  font-family: Oswald;
+  font-family: "Oswald", sans-serif;
   font-size: 30px;
   font-weight: 700;
   line-height: 100%;
