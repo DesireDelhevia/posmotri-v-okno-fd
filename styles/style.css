@@ -220,6 +220,7 @@ ol {
 .content__list-container {
   max-height: 298px;
   overflow-y: auto;
+  position: relative;
 }
 
 .title {
@@ -239,10 +240,6 @@ ol {
   inline-size: 711px;
   block-size: 386px;
   margin-bottom: 16px;
-  position: relative;
-}
-
-.content__list-container {
   position: relative;
 }
 
