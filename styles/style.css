@@ -60,6 +60,7 @@ ol {
   place-items: end;
   gap: 30px;
   inline-size: 1140px;
+  block-size: 534px;
 }
 
 .result {
@@ -219,12 +220,12 @@ ol {
 
 .content__list-container {
   max-height: 298px;
-  overflow-y: auto;
+  overflow: auto;
   position: relative;
 }
 
 .title {
-  font-family: Oswald;
+  font-family: "Oswald" , "sans-serif";
   font-size: 75px;
   font-weight: 700;
   line-height: 94%;
@@ -241,20 +242,6 @@ ol {
   block-size: 386px;
   margin-bottom: 16px;
   position: relative;
-}
-
-          /* Не могу понять ,почему когда правый прелоадер начинает прогружаться
-         текста двигаются там где не надо, можете подсказать как это исправить 🙏🏻*/
-
-.preloader {
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .result__video {
@@ -291,7 +278,7 @@ ol {
 .content__card-link {
   display: block;
   text-decoration: none;
-  color: #FFFFFF;
+  color: currentColor;
   cursor: pointer
 }
 
