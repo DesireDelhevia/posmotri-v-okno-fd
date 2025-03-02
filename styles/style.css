@@ -219,7 +219,7 @@ ol {
 }
 
 .content__list-container {
-  max-height: 298px;
+  height: 298px;
   overflow: auto;
   position: relative;
 }
@@ -280,6 +280,10 @@ ol {
   text-decoration: none;
   color: currentColor;
   cursor: pointer
+}
+
+.content__card-link_current {
+  background-color: #545050;
 }
 
 .content__card-link:active {
